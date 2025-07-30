@@ -13,6 +13,7 @@ Close
 Jun 13, 2025
 
 Description
+
 Hackathon Problem Statement: NDVI-based Land Cover Classification
 Key Concepts
 
@@ -30,9 +31,11 @@ Missing Data: Certain NDVI values are missing because of cloud cover obstructing
 Temporal Variations: NDVI values vary seasonally, requiring careful feature engineering to extract meaningful trends.
 
 Important Note:
+
 The training and public leaderboard test data may contain noisy observations, while the private leaderboard data is clean and free of noise. This design helps evaluate how well your model generalizes beyond noisy training conditions.
 
 Dataset
+
 Each row in the dataset contains:
 
 class: Ground truth label of the land cover type — one of {Water, Impervious, Farm, Forest, Grass, Orchard}
